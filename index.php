@@ -24,7 +24,7 @@
             <a href="homework/homework2">Homework 2</a> </br>
             <h1>Lab</h1> 
     
-            <a href="lab/lab3">Lab3</a> <p1> : this is the copy of the lab in my respository.</p1> </br>
+            <a href="lab/Lab3">Lab3</a> <p1> : this is the copy of the lab in my respository.</p1> </br>
             <p1>the original work is here : </p1>  <a href="https://github.com/Bole8823/lab3">lab3</a>
         </main>
         
