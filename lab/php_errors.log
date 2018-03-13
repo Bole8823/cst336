@@ -1,0 +1,25 @@
+[13-Mar-2018 15:33:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/lab/lab4/index.php on line 163
+[13-Mar-2018 15:34:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/lab/lab4/index.php on line 164
+[13-Mar-2018 15:34:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/lab/lab4/index.php on line 164
+[13-Mar-2018 15:35:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/lab/lab4/index.php on line 163
+[13-Mar-2018 15:35:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/lab/lab4/index.php on line 163
+[13-Mar-2018 15:39:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'Bole8823'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/lab/lab4/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/lab/lab4/index.php(77): PDO->__construct('mysql:host=loca...', 'Bole8823', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/lab/lab4/index.php on line 77
+[13-Mar-2018 15:47:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'Bole8823'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/lab/lab4/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/lab/lab4/index.php(77): PDO->__construct('mysql:host=loca...', 'Bole8823', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/lab/lab4/index.php on line 77
+[13-Mar-2018 15:47:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'Bole8823'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/lab/lab4/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/lab/lab4/index.php(77): PDO->__construct('mysql:host=loca...', 'Bole8823', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/lab/lab4/index.php on line 77
+[13-Mar-2018 15:48:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'Bole8823'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336/lab/lab4/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/lab/lab4/index.php(77): PDO->__construct('mysql:host=loca...', 'Bole8823', 'Berenice1234')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/lab/lab4/index.php on line 77
