@@ -23,3 +23,8 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/lab/lab4/index.php(77): PDO->__construct('mysql:host=loca...', 'Bole8823', 'Berenice1234')
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/lab/lab4/index.php on line 77
+[26-Mar-2018 15:39:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'crime_tips'' in /home/ubuntu/workspace/cst336/lab/lab4/index.php:92
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/lab/lab4/index.php(92): PDO->__construct('mysql:host=0.0....', 'bole8823', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/lab/lab4/index.php on line 92
