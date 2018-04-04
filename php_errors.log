@@ -1,0 +1,52 @@
+[28-Mar-2018 16:01:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'midterm.table_name' doesn't exist' in /home/ubuntu/workspace/cst336/midterm/program2.php:46
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/midterm/program2.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/midterm/program2.php on line 46
+[28-Mar-2018 16:03:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'midterm.table_name' doesn't exist' in /home/ubuntu/workspace/cst336/midterm/program2.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/midterm/program2.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/midterm/program2.php on line 22
+[28-Mar-2018 16:05:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'crime_tips'' in /home/ubuntu/workspace/cst336/midterm/program2.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/midterm/program2.php(9): PDO->__construct('mysql:host=0.0....', 'bole8823', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/midterm/program2.php on line 9
+[28-Mar-2018 16:22:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'yourUserName'@'localhost' (using password: YES)' in /home/ubuntu/workspace/cst336/midterm/program2.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/midterm/program2.php(9): PDO->__construct('mysql:host=loca...', 'yourUserName', 'your_password')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/midterm/program2.php on line 9
+[28-Mar-2018 16:38:28 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/ubuntu/workspace/cst336/midterm/program2.php on line 13
+[28-Mar-2018 16:38:28 UTC] PHP Stack trace:
+[28-Mar-2018 16:38:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/program2.php:0
+[28-Mar-2018 16:41:19 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/midterm/program2.php on line 14
+[28-Mar-2018 16:41:19 UTC] PHP Stack trace:
+[28-Mar-2018 16:41:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/program2.php:0
+[28-Mar-2018 16:44:11 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/cst336/midterm/program2.php on line 4
+[28-Mar-2018 16:44:11 UTC] PHP Stack trace:
+[28-Mar-2018 16:44:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/program2.php:0
+[28-Mar-2018 16:46:53 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/ubuntu/workspace/cst336/midterm/program2.php on line 4
+[28-Mar-2018 16:46:53 UTC] PHP Stack trace:
+[28-Mar-2018 16:46:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/program2.php:0
+[29-Mar-2018 15:49:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'etiennedivet'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/database_project/index.php:58
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/database_project/index.php(58): PDO->__construct('mysql:host=loca...', 'etiennedivet', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/database_project/index.php on line 58
+[29-Mar-2018 15:49:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'etiennedivet'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/database_project/index.php:58
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/database_project/index.php(58): PDO->__construct('mysql:host=loca...', 'etiennedivet', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/database_project/index.php on line 58
+[29-Mar-2018 15:55:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'etiennedivet'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/database_project/index.php:58
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/database_project/index.php(58): PDO->__construct('mysql:host=loca...', 'etiennedivet', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/database_project/index.php on line 58
+[29-Mar-2018 15:55:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'etiennedivet'@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst336/database_project/index.php:58
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/database_project/index.php(58): PDO->__construct('mysql:host=loca...', 'etiennedivet', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/database_project/index.php on line 58

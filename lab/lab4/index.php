@@ -74,7 +74,7 @@
         
             <?php
         
-//$connUrl = getenv('JAWSDB_MARIA_URL');
+
 $connUrl = "mysql://pywo8h8n9lylz83t:xzlg0tzxs8w1ndax@jlg7sfncbhyvga14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/mhq1uy937tuxjh65";
 $hasConnUrl = !empty($connUrl);
 
