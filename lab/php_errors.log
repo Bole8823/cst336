@@ -88,3 +88,30 @@
 [04-Apr-2018 16:02:22 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/lab/lab5/admin.php on line 10
 [04-Apr-2018 16:02:22 UTC] PHP Stack trace:
 [04-Apr-2018 16:02:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/lab/lab5/admin.php:0
+[04-Apr-2018 16:20:51 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php on line 2
+[04-Apr-2018 16:20:51 UTC] PHP Stack trace:
+[04-Apr-2018 16:20:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php:0
+[04-Apr-2018 16:20:51 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php on line 2
+[04-Apr-2018 16:20:51 UTC] PHP Stack trace:
+[04-Apr-2018 16:20:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php:0
+[04-Apr-2018 16:20:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php on line 3
+[04-Apr-2018 16:20:51 UTC] PHP Stack trace:
+[04-Apr-2018 16:20:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php:0
+[04-Apr-2018 16:21:14 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/lab/lab5/addUser.php on line 8
+[04-Apr-2018 16:21:14 UTC] PHP Stack trace:
+[04-Apr-2018 16:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/lab/lab5/addUser.php:0
+[04-Apr-2018 16:21:14 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/lab/lab5/addUser.php on line 8
+[04-Apr-2018 16:21:14 UTC] PHP Stack trace:
+[04-Apr-2018 16:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/lab/lab5/addUser.php:0
+[04-Apr-2018 16:21:14 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/lab/lab5/addUser.php on line 9
+[04-Apr-2018 16:21:14 UTC] PHP Stack trace:
+[04-Apr-2018 16:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/lab/lab5/addUser.php:0
+[04-Apr-2018 16:28:57 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php on line 2
+[04-Apr-2018 16:28:57 UTC] PHP Stack trace:
+[04-Apr-2018 16:28:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php:0
+[04-Apr-2018 16:28:57 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php on line 2
+[04-Apr-2018 16:28:57 UTC] PHP Stack trace:
+[04-Apr-2018 16:28:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php:0
+[04-Apr-2018 16:28:57 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php on line 3
+[04-Apr-2018 16:28:57 UTC] PHP Stack trace:
+[04-Apr-2018 16:28:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/lab/lab5/deleteUser.php:0

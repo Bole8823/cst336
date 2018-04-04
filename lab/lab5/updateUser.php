@@ -23,6 +23,8 @@ function dbConnect() {
             return new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 }
 $conn = dbConnect();
+
+
 function getDepartmentInfo(){
     global $conn;        
     $sql = "SELECT deptName, departmentId 
@@ -35,10 +37,12 @@ function getDepartmentInfo(){
     return $records;
     
 }
+
+
 function getUserInfo($userId) {
-    global $conn;    
+       
     $sql = "SELECT * 
-            FROM tc_user
+            FROM user
             WHERE userId = $userId";
     $stmt = $conn->prepare($sql);
     $stmt->execute();
@@ -48,7 +52,7 @@ function getUserInfo($userId) {
 }
 if (isset($_GET['updateUserForm'])) { //admin has submitted form to update user
     
-    $sql = "UPDATE tc_user
+    $sql = "UPDATE user
             SET firstName = :fName,
                 lastName = :lName
 			WHERE userId = :userId";
@@ -60,11 +64,8 @@ if (isset($_GET['updateUserForm'])) { //admin has submitted form to update user
     $stmt->execute($namedParameters);
     
 }
-if (isset($_GET['userId'])) {
-    
+if(isset($_GET['userId'])) {
     $userInfo = getUserInfo($_GET['userId']);
-    
-    
 }
 ?>
 

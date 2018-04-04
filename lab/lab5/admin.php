@@ -109,11 +109,11 @@ function displayUsers() {
         
         foreach($users as $user) {
             
-            echo $user['user_id'] . '  ' . $user['firstName'] . "  " . $user['lastName'];
-            echo "[<a href='updateUser.php?userId=".$user['user_id']."'> Update </a> ]";
+            echo $user['firstName'] . '  ' . $user['lastName'] . "  " . $user['email'];
+            echo "[<a href='updateUser.php?userId=".$user['userId']."'> Update </a> ]";
             //echo "[<a href='deleteUser.php?userId=".$user['userId']."'> Delete </a> ]";
             echo "<form action='deleteUser.php' style='display:inline' onsubmit='return confirmDelete(\"".$user['firstName']."\")'>
-                     <input type='hidden' name='userId' value='".$user['user_id']."' />
+                     <input type='hidden' name='userId' value='".$user['userId']."' />
                      <input type='submit' value='Delete'>
                   </form>
                 ";
