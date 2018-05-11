@@ -50,3 +50,9 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/database_project/index.php(58): PDO->__construct('mysql:host=loca...', 'etiennedivet', '')
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/database_project/index.php on line 58
+[10-Apr-2018 20:08:27 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/ubuntu/workspace/cst336/midterm/program2.php on line 5
+[10-Apr-2018 20:08:27 UTC] PHP Stack trace:
+[10-Apr-2018 20:08:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/program2.php:0
+[10-Apr-2018 20:08:44 UTC] PHP Fatal error:  Call to a member function setAttribute() on a non-object in /home/ubuntu/workspace/cst336/midterm/program2.php on line 5
+[10-Apr-2018 20:08:44 UTC] PHP Stack trace:
+[10-Apr-2018 20:08:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midterm/program2.php:0

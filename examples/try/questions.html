@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Questions </title>
+</head>
+
+<body>
+
+
+
+
+
+    <questions class="questions" id="questions">
+
+
+    </questions>
+    <br>
+    <br>
+    <button onclick="addQuestion()">Add Questions</button>
+    <br>
+    <br>
+    <button onclick="submit()">Submit</button>
+
+    <script type="text/javascript" src="results.json"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+    <script type="text/javascript">
+        function questionNum(n) {
+            return n = n + 1;
+        }
+        var num = 0;
+        function addQuestion() {
+            var br = document.createElement('br');
+            //question
+            var questionTag = document.getElementById("questions");
+            num = questionNum(num);
+            console.log(questionTag)
+            var curQuestion = document.createElement("questionN" + num);
+            curQuestion.id = "questionN" + num;
+            questionTag.appendChild(curQuestion)
+            questionTag.appendChild(br);
+            var t = document.createTextNode("Question " + num + " :");
+            var Qinput = document.createElement("INPUT");
+            Qinput.id = "Qinput" + "" + num;
+            Qinput.setAttribute('type', 'text');
+            Qinput.setAttribute('value', '');
+            //br = document.createElement('br');
+            curQuestion.appendChild(br);
+            curQuestion.appendChild(t);
+            curQuestion.appendChild(br);
+            curQuestion.appendChild(Qinput);
+            //time selector
+            var Tinput = document.createElement("select");
+            Tinput.setAttribute("name", "time" + num);
+            Tinput.id = "time" + num;
+            for (var i = 1; i < 5; i++) {
+                var option = document.createElement("option");
+                option.setAttribute("value", "" + i * 5);
+                var txt = document.createTextNode("" + i * 5);
+                option.appendChild(txt);
+                Tinput.appendChild(option);
+            }
+            curQuestion.appendChild(Tinput);
+            //Answers
+            var answers = document.createElement("answers" + num);
+            answers.id = "answers" + num;
+            br = document.createElement('br');
+            curQuestion.appendChild(br);
+            br = document.createElement('br');
+            curQuestion.appendChild(br);
+            curQuestion.appendChild(answers);
+            for (var i = 1; i < 5; i++) {
+                var Atxt = document.createTextNode("Answers " + i + " :");
+                var Ainput = document.createElement("INPUT");
+                Ainput.id = "Ainput" + "" + num + "" + i;
+                Ainput.setAttribute('type', 'text');
+                Ainput.setAttribute('value', '');
+                var div = document.createElement("div");
+                answers.appendChild(Atxt);
+                answers.appendChild(Ainput);
+            }
+            br = document.createElement('br');
+            curQuestion.appendChild(br);
+            br = document.createElement('br');
+            curQuestion.appendChild(br);
+            //Assign good answer
+            var goodAtxt = document.createTextNode("Good Answer(s) ");
+            curQuestion.appendChild(goodAtxt)
+            var GoodAnswer = document.createElement("form")
+            GoodAnswer.id = "GoodAnswers" + num;
+            for (var i = 1; i < 5; i++) {
+                var gA = document.createElement("input");
+                gA.setAttribute("type", "checkbox");
+                gA.setAttribute("name", "gA" + num + "" + i);
+                gA.id = "gA" + num + "" + i;
+                gA.setAttribute("value", "" + i);
+                var gAtxt = document.createTextNode("" + i);
+                GoodAnswer.appendChild(gAtxt);
+                GoodAnswer.appendChild(gA);
+            }
+            curQuestion.appendChild(GoodAnswer);
+            br = document.createElement('br');
+            curQuestion.appendChild(br);
+            br = document.createElement('br');
+            curQuestion.appendChild(br);
+        }
+        function submit() {
+            var array = [];
+            for (var i = 1; i <= num; i++) {
+                var questions = [];
+                //get questions
+                var question = document.getElementById("Qinput" + i);
+                //console.log(question.value);
+                questions.push(question.value);
+                //get time
+                var time = document.getElementById("time" + i);
+                var selectTime = time.options[time.selectedIndex].value;
+                //get list of possible answers
+                var answersArray = [];
+                for (var j = 1; j < 5; j++) {
+                    var answer = document.getElementById("Ainput" + "" + i + "" + j)
+                    answersArray.push(answer.value);
+                    //console.log(answer.value);
+                }
+                //get good answer
+                var goodA = "";
+                for (var j = 1; j < 5; j++) {
+                    var Goodanswer = document.getElementById("gA" + "" + i + "" + j)
+                    if (Goodanswer.checked == true)
+                        goodA = j;
+                    //console.log(goodA);
+                }
+                questions.push(selectTime);
+                questions.push(answersArray);
+                questions.push(goodA);
+                array.push(questions);
+            }
+            var request = $.post("dbPushQuestions.php", { name: name, array: array });
+            console.log(array);
+        }
+    </script>
+
+
+</body>
+
+</html>

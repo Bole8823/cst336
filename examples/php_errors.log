@@ -1,2 +1,8 @@
 [13-Mar-2018 01:32:34 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/examples/number/index.php on line 29
 [28-Mar-2018 14:23:58 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/cst336/examples/number/index.php on line 29
+[10-May-2018 16:41:37 UTC] PHP Fatal error:  Call to a member function closeCursor() on a non-object in /home/ubuntu/workspace/cst336/examples/news/index.php on line 31
+[10-May-2018 16:41:37 UTC] PHP Stack trace:
+[10-May-2018 16:41:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/examples/news/index.php:0
+[11-May-2018 05:26:12 UTC] PHP Parse error:  syntax error, unexpected 'try' (T_TRY) in /home/ubuntu/workspace/cst336/examples/news/index.php on line 42
+[11-May-2018 05:31:38 UTC] PHP Parse error:  syntax error, unexpected '$reponse' (T_VARIABLE) in /home/ubuntu/workspace/cst336/examples/news/index.php on line 58
+[11-May-2018 05:32:04 UTC] PHP Parse error:  syntax error, unexpected ''</br>'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/cst336/examples/news/index.php on line 82

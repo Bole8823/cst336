@@ -19,6 +19,7 @@
             <h1>Challenge</h1>
             <a href="examples/number">guess number </a> </br>
             <a href="examples/login">login</a> </br></br>
+            <a href="examples/news">News</a> </br></br>
             <h1>Homework</h1>
             <a href="homework/homework1">Homework 1</a> </br>
             <a href="homework/homework2">Homework 2</a> </br></br>
@@ -29,6 +30,11 @@
             <a href="lab/lab4">Lab 4</a> </br>
             <a href="lab/lab5">Lab 5 !</a> </br>
             
+           
+            
+            </br></br>
+             <h1>Assignment</h1>
+            <a href="assignment/assignment4">Assignment 4</a> </br>
             
             
             </br></br></br>
