@@ -5,3 +5,43 @@ Stack trace:
   thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101
 [15-May-2018 03:55:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 132
 [15-May-2018 03:58:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 132
+[15-May-2018 04:39:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'jlg7sfncbhyvga14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'' (0)' in /home/ubuntu/workspace/final/2018.05.14/scheduler.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018.05.14/scheduler.php(101): PDO->__construct('mysql:host=jlg7...', 'bole8823', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101
+[15-May-2018 04:40:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'localhost'' (0)' in /home/ubuntu/workspace/final/2018.05.14/scheduler.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018.05.14/scheduler.php(101): PDO->__construct('mysql:host=loca...', 'bole8823', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101
+[15-May-2018 04:41:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host 'jlg7sfncbhyvga14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'' (0)' in /home/ubuntu/workspace/final/2018.05.14/scheduler.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018.05.14/scheduler.php(101): PDO->__construct('mysql:host=jlg7...', 'bole8823', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101
+[15-May-2018 04:43:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2005] Unknown MySQL server host ''jlg7sfncbhyvga14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com'' (0)' in /home/ubuntu/workspace/final/2018.05.14/scheduler.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018.05.14/scheduler.php(101): PDO->__construct('mysql:host='jlg...', 'bole8823', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101
+[15-May-2018 04:43:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'bole8823'@'35.184.137.153' (using password: NO)' in /home/ubuntu/workspace/final/2018.05.14/scheduler.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018.05.14/scheduler.php(101): PDO->__construct('mysql:host=jlg7...', 'bole8823', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101
+[15-May-2018 04:44:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'pywo8h8n9lylz83t'@'35.184.137.153' (using password: NO)' in /home/ubuntu/workspace/final/2018.05.14/scheduler.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018.05.14/scheduler.php(101): PDO->__construct('mysql:host=jlg7...', 'pywo8h8n9lylz83...', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101
+[15-May-2018 04:45:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'pywo8h8n9lylz83t'@'35.184.137.153' (using password: NO)' in /home/ubuntu/workspace/final/2018.05.14/scheduler.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018.05.14/scheduler.php(101): PDO->__construct('mysql:host=jlg7...', 'pywo8h8n9lylz83...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101
+[15-May-2018 04:46:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'pywo8h8n9lylz83t'@'%' to database ''mhq1uy937tuxjh65''' in /home/ubuntu/workspace/final/2018.05.14/scheduler.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018.05.14/scheduler.php(101): PDO->__construct('mysql:host=jlg7...', 'pywo8h8n9lylz83...', 'xzlg0tzxs8w1nda...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101

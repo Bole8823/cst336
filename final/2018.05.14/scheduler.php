@@ -98,7 +98,7 @@ $conn = dbConnect();
         </div>
         
 <?php
-    $bdd= new PDO("mysql:host=localhost;dbname=scheduler", 'bole8823', '');
+    $bdd= new PDO("mysql:host=jlg7sfncbhyvga14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com;dbname='mhq1uy937tuxjh65'", 'pywo8h8n9lylz83t','xzlg0tzxs8w1ndax');
     $sql='SELECT * FROM salon WHERE available_from > CURDATE() ORDER BY available_from ';
 ?>
 
@@ -130,6 +130,7 @@ $conn = dbConnect();
         $stmt->execute();
         $row = $stmt->fetchAll();
         echo $sql;
+        var_dump($row);
        foreach ($row as $var){
             echo "<tr>";
             echo "sql";
