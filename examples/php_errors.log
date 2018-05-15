@@ -14,3 +14,5 @@
 [15-May-2018 06:38:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/examples/scheduler/final.php on line 25
 [15-May-2018 06:38:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'jlg7sfncbhyvga14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306' (20) in /home/ubuntu/workspace/examples/scheduler/final.php on line 15
 [15-May-2018 06:38:55 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/examples/scheduler/final.php on line 25
+[15-May-2018 06:43:06 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'jlg7sfncbhyvga14.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306' (20) in /home/ubuntu/workspace/examples/scheduler/final.php on line 15
+[15-May-2018 06:43:06 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/examples/scheduler/final.php on line 25
