@@ -45,3 +45,9 @@ Stack trace:
 #0 /home/ubuntu/workspace/final/2018.05.14/scheduler.php(101): PDO->__construct('mysql:host=jlg7...', 'pywo8h8n9lylz83...', 'xzlg0tzxs8w1nda...')
 #1 {main}
   thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101
+[15-May-2018 05:46:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1044] Access denied for user 'pywo8h8n9lylz83t'@'%' to database ''mhq1uy937tuxjh65''' in /home/ubuntu/workspace/final/2018.05.14/scheduler.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018.05.14/scheduler.php(101): PDO->__construct('mysql:host=jlg7...', 'pywo8h8n9lylz83...', 'xzlg0tzxs8w1nda...')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101
+[15-May-2018 05:57:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 148
