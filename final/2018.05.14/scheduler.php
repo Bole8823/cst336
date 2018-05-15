@@ -128,13 +128,16 @@ $conn = dbConnect();
         $sql=$a;
         $stmt = $bdd->prepare($sql);
         $stmt->execute();
-        while($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+        $row = $stmt->fetchAll();
+        echo $sql;
+       foreach ($row as $var){
             echo "<tr>";
+            echo "sql";
 
-echo "<td>".$row['code']."</td>";
-echo "<td>".$row['available_from']."</td>";
-echo "<td>".$row['available_to']."</td>";
-echo "<td>".$row['type']."</td>";
+echo "<td>".$var['code']."</td>";
+echo "<td>".$var['available_from']."</td>";
+echo "<td>".$var['available_to']."</td>";
+echo "<td>".$var['type']."</td>";
 
 echo "<td><a  href='archieve.php?id=".$row['id']."'>Cancel</a></td>";
 

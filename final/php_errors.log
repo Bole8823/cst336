@@ -1,0 +1,7 @@
+[15-May-2018 03:42:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000] [1049] Unknown database 'scheduler'' in /home/ubuntu/workspace/final/2018.05.14/scheduler.php:101
+Stack trace:
+#0 /home/ubuntu/workspace/final/2018.05.14/scheduler.php(101): PDO->__construct('mysql:host=loca...', 'bole8823', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 101
+[15-May-2018 03:55:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 132
+[15-May-2018 03:58:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/final/2018.05.14/scheduler.php on line 132
